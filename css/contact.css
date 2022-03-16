@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1C1F3D;
+    margin-top: 50px;
+    padding: 30px;
+    color: #F2C550;
+    font-size: 20px;
+}
+
+.logo-hdc {
+    width: 280px;
+}
+
+.form_div {}
+
+form {
+    margin: auto;
+    color: #1C1F3D;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input {
+    width: 300px;
+    border: 2px solid #1C1F3D;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 30px
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    border: 2px solid #1C1F3D;
+}
+
+#btn {
+    width: 150px;
+    border-radius: 10px;
+    color: #F2C550;
+    background-color: #1C1F3D;
+    border: 2px solid #1C1F3D;
+}

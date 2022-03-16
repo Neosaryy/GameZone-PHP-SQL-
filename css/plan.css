@@ -1,0 +1,17 @@
+
+.legende{
+    border: 3px solid #5A266D;
+    width: 150px;
+    height: 70px;
+    padding: 5px;
+}
+
+#contener{
+  width: 50%;
+  margin:50px auto;
+}
+
+#contener, img{
+    width: 50vw;
+}
+

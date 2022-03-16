@@ -1,0 +1,39 @@
+.full-body {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #5A266D;
+    padding: 40px;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+label,
+#check {
+    margin-top: 20px;
+    color: #F2C550;
+}
+
+h2 {
+    color: #F2C550;
+    text-align: center;
+}
+
+.sub {
+    padding-top: 0px;
+    color: #5A266D;
+    width: 100px;
+    margin: auto;
+}
+
+.div-btn {
+    text-align: center;
+    padding-top: 20px;
+}

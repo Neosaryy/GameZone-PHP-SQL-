@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo-hdc {
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section img {
+    width: 100%
+}
+
+section p {
+    padding: 60px;
+    font-size: 20px;
+    width: 70vw;
+    margin: auto;
+    color: #5A266D;
+}

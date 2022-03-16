@@ -1,0 +1,37 @@
+.morpion h2{
+    text-align: center;
+    color: white;
+    padding-top: 20px;;
+}
+
+
+#affichage {
+    padding-top: 50px;
+    display: flex;
+    width: 303px;
+    margin: auto;
+}
+
+.texte-morpion{
+    text-align: center;
+}
+
+#top div,
+#middle div,
+#bottom div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 90px;
+    background-color: silver;
+}
+
+span {
+    margin-left: 18px;
+    font-family: sans-serif;
+}
+
+#joueur1,#bot{
+    color: white;
+    padding-bottom: 10px;
+}

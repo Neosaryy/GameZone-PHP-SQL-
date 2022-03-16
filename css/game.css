@@ -1,0 +1,50 @@
+.descrip {
+    text-align: center;
+    color: #1C1F3D;
+}
+
+section {
+    background-color: #1C1F3D;
+    justify-content: center;
+}
+
+.plateau-de-jeu {
+    width: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte-div.anim {
+    transform: rotateY(180deg);
+}
+
+.carte-div {
+    width: 100Px;
+    height: 130px;
+    margin: 3px;
+    position: relative;
+    padding: 5px;
+    transform-style: preserve-3d;
+}
+
+.dos-de-carte {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.face-de-la-carte {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.face-de-la-carte {
+    transform: rotateY(180deg);
+}

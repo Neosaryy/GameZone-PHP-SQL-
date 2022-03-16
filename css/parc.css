@@ -1,0 +1,55 @@
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #5A266D;
+}
+
+.presentation p {
+    width: 90%;
+    margin:auto;
+}
+
+.presentation img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.img-resto{
+    width: 400px;
+}
+.barre{
+   height: 5px;
+   background-color: #5A266D;
+   margin: 50px 0px;
+   border-radius:2px;
+}
+
+.contener-resto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contener-resto p{
+    width: 60vw;
+    margin-left: 50px;
+}
+
+
+.div-voir-le-plan{
+    text-align: center;
+}
+
+aside a{
+    text-decoration: none ;
+    background-color: #5A266D;
+    border: 1px solid #5A266D;
+    color: #F6CD40;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside a:hover{
+   text-decoration: underline;
+    background-color: #1c1f3d
+}
